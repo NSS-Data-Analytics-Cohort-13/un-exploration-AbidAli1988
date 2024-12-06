@@ -38,7 +38,7 @@ Comment on what you observe has happened to GDP values over time and the relativ
 15. Drop the `Value Footnotes` column and rename the remaining three to 'Country', 'Year', and 'Internet_Users_Pct'.
 16. Look at the number of observations in this dataset per year. What do you notice?
 17. What is the first year to have a non-zero internet users percentage value?
-18. How does the distribution of internet users percent differ for 2000 and 2014?
+18.How does the distribution of internet users percent differ for 2000 and 2014?
 19. For how many countries was the percentage of internet users below 5% in 2014?
 20. Merge the two DataFrames to one. Do this in a way that keeps **all rows** from each of the two DataFrames. Call the new DataFrame `gdp_and_internet_use`. Look at the first and last few rows to confirm that it merged correctly.
 21. Find the three countries with the highest internet users percentage in 2014. Use a seaborn FacetGrid (https://seaborn.pydata.org/generated/seaborn.FacetGrid.html) to compare how the GDP per capita has changed over time for these three countries. What do you notice?
